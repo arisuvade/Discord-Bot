@@ -31,11 +31,10 @@ def run_discord_bot():
         if msg.author == client.user:
             return
 
-        username = str(msg.author)
-        user_msg = str(msg.content)
-        channel = str(msg.channel)
-
-        print(f"{username} said: '{user_msg}' ({channel})")
+        username = msg.author
+        user_msg = msg.content
+        channel = msg.channel
+        print(f"Channel: {channel} | {username}: {user_msg}")
 
         if user_msg.startswith("?"):
             user_msg = user_msg[1:]

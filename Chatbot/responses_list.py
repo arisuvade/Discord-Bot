@@ -1,11 +1,3 @@
-greetings = {
-    "hello": "Hi there!",
-    "hi": "Hello there!",
-    "hey": "Hey there!",
-    "how are you?": "I'm fine, how about you?",
-    "i'm fine, too": "Good to hear that.",
-}
-
 quotes = [
     "I'm sick of following my dreams, man. I'm just going to \
 ask where they're going and hook up with 'em later.",
@@ -44,3 +36,5 @@ you and me, something smells.",
     "Where do young trees go to learn? Elementree school."
     "Why was six afraid of seven? Because 7-8-9.",
 ]
+
+rockpaperscissor = ["Rock", "Paper", "Scissor"]

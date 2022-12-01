@@ -10,7 +10,8 @@ def responses_handler(msg: str) -> str:
         return '`You can type some greetings: like hello, hi, and hey. \
 Also, "quote" or "quotes" to get quotes, "joke" or "jokes" to get jokes, \
 "flip" or "coin" to flip a coin, "roll" or "dice" to roll a dice, and \
-"rock", "paper", or "scissor" to play rock, paper, and scissors. `'
+"rock", "paper", or "scissor" to play rock, paper, and scissors. \
+Type "?" at the start of the command to get direct message by DigiBot.`'
 
     # Greetings.
     if msg in ("hi", "hello", "hey"):

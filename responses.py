@@ -8,7 +8,9 @@ def responses_handler(msg: str) -> str:
     # Help.
     if msg == "!help":
         return '`You can type some greetings: like hello, hi, and hey. \
-Also, "quote", "joke", and also "roll" to roll a dice`'
+Also, "quote" or "quotes" to get quotes, "joke" or "jokes" to get jokes, \
+"flip" or "coin" to flip a coin, "roll" or "dice" to roll a dice, and \
+"rock", "paper", or "scissor" to play rock, paper, and scissors. `'
 
     # Greetings.
     if msg in ("hi", "hello", "hey"):
